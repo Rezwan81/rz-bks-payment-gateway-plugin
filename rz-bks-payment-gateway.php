@@ -103,11 +103,11 @@ if ( ! function_exists( 'is_woocommerce_activated' ) ) {
                     <table border="0">
                       <tr>
                         <td><label for="bkash_number"><?php esc_html_e( 'bKash Number', "janets" );?></label></td>
-                        <td><input class="widefat" type="text" name="bkash_number" id="bkash_number" placeholder="017XXXXXXXX"></td>
+                        <td><input class="widefat" type="text" name="bkash_number" id="bkash_number" placeholder="type your number"></td>
                       </tr>
                       <tr>
                         <td><label for="bkash_transaction_id"><?php esc_html_e( 'bKash Transaction ID', "janets" );?></label></td>
-                        <td><input class="widefat" type="text" name="bkash_transaction_id" id="bkash_transaction_id" placeholder="8N7A6D5EE7M"></td>
+                        <td><input class="widefat" type="text" name="bkash_transaction_id" id="bkash_transaction_id" placeholder="type your transaction id"></td>
                       </tr>
                     </table>
 
