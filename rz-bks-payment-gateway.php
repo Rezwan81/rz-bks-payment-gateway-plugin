@@ -292,6 +292,12 @@ if ( ! function_exists( 'is_woocommerce_activated' ) ) {
         }
     }
 
+    add_action( 'admin_init', 'rz_bkash_deactive' );
+    function rz_bkash_deactive() {
+        deactivate_plugins( plugin_basename( __FILE__ ) );
+        unset( $_GET['activate'] );
+    }
+
 
 
 
