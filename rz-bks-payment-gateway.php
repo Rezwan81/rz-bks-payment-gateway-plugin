@@ -98,7 +98,8 @@ if ( ! function_exists( 'is_woocommerce_activated' ) ) {
 
                 global $woocommerce;
 
-                ?>
+                ?>  
+                    <p>At First Make Payment to <b>01786815132<b></p><br>
                     <table border="0">
                       <tr>
                         <td><label for="bkash_number"><?php esc_html_e( 'bKash Number', "janets" );?></label></td>
